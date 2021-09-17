@@ -1,0 +1,23 @@
+{
+  "name": "emergency-alert-schedule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "crypto": "^1.0.1",
+    "date-fns": "^2.23.0",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5",
+    "twilio": "^3.67.2"
+  }
+}
